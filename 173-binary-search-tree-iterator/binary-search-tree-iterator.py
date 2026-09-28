@@ -7,9 +7,3 @@ class BSTIterator:
   def next(self) -> int:
     self.i += 1
     return self.vals[self.i - 1]
-
-  def hasNext(self) -> bool:
-    return self.i < len(self.vals)
-
-  def _inorder(self, root: TreeNode | None) -> None:
-
