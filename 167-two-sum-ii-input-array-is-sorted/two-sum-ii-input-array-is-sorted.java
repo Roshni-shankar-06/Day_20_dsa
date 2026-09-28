@@ -5,10 +5,4 @@ class Solution {
         
         while (left < right) {
             int currentSum = numbers[left] + numbers[right];
-            
-            if (currentSum == target) {
-                // The problem requires 1-indexed results
-                return new int[] {left + 1, right + 1};
-            } else if (currentSum < target) {
-                // Sum is too small, move left pointer to increase the sum
-          
+         
