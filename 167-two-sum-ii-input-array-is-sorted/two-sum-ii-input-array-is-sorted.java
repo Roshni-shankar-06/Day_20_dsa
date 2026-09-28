@@ -16,9 +16,4 @@ class Solution {
                 // Sum is too large, move right pointer to decrease the sum
                 right--;
             }
-        }
-        
-        // Return an empty array if no solution is found (guaranteed not to happen per constraints)
-        return new int[] {-1, -1};
-    }
-}
+       
