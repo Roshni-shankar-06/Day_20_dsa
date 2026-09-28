@@ -28,14 +28,4 @@ public class Solution {
             }
             
             // 3. Add the current element's index to the back of the deque
-            deque.offerLast(i);
-            
-            // 4. Once the window is fully formed, the element at the front is the max
-            if (i >= k - 1) {
-                result[ri++] = nums[deque.peekFirst()];
-            }
-        }
-        
-        return result;
-    }
-}
+       
