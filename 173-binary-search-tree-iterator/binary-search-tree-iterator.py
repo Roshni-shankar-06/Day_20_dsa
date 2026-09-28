@@ -12,8 +12,4 @@ class BSTIterator:
     return self.i < len(self.vals)
 
   def _inorder(self, root: TreeNode | None) -> None:
-    if not root:
-      return
-    self._inorder(root.left)
-    self.vals.append(root.val)
-    self._inorder(root.right)
+   
