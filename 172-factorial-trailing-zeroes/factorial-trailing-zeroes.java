@@ -5,6 +5,4 @@ class Solution {
             n /= 5;
             count += n;
         }
-        return count;
-    }
-}
+      
