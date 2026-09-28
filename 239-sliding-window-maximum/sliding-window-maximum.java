@@ -14,11 +14,4 @@ public class Solution {
         
         // Deque stores the indices of array elements
         Deque<Integer> deque = new ArrayDeque<>();
-        
-        for (int i = 0; i < n; i++) {
-            // 1. Remove elements that have fallen out of the sliding window range
-            if (!deque.isEmpty() && deque.peekFirst() < i - k + 1) {
-                deque.pollFirst();
-            }
-            
-          
+      
