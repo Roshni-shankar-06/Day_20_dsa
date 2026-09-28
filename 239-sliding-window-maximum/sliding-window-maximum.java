@@ -21,11 +21,4 @@ public class Solution {
                 deque.pollFirst();
             }
             
-            // 2. Remove all elements smaller than the current element from the back
-            // because they will never be the maximum in this or any future windows
-            while (!deque.isEmpty() && nums[deque.peekLast()] < nums[i]) {
-                deque.pollLast();
-            }
-            
-            // 3. Add the current element's index to the back of the deque
-       
+          
